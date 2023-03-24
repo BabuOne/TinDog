@@ -1,0 +1,222 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color: #8f8f8f
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: black;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.container-fluid-tindog {
+    padding-left: 0;
+}
+
+/* Sections */
+
+.colorful-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.blank-section {
+    color: #8f8f8f;
+    background-color: #fff;
+}
+
+/* Navigaton Bar */
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2 rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+
+}
+
+/* Title Image */
+
+.phone-pic-placement {
+    position: relative;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Feature Logos */
+
+.feature-logo {
+    color: #ef8172;
+    margin-top: 20%;
+    margin-bottom: 1rem;
+}
+
+.feature-logo:hover {
+    color: #ff4c68;
+}
+
+/* Feature Section */
+
+#features {
+    position: relative;
+}
+
+.feature-box {
+    padding: 2%;
+}
+
+.feature-title {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Card Section */
+
+.card-space {
+    margin-bottom: 57px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-level {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+@media (max-width: 1035px) {
+
+    #title {
+         text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call To Action Slide */
+
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
